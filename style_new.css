@@ -1,0 +1,51 @@
+body{
+  margin-left: 30%;
+}
+h1{
+  margin-left: 4%;
+}
+.echec{
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+figure:first-of-type{
+  order: 6;
+}
+figure:nth-of-type(2n){
+  order: 12;
+}
+figure:nth-of-type(3n){
+  order: 5;
+}
+figure:nth-of-type(4n){
+  order: 11;
+}
+figure:nth-of-type(5n){
+  order: 4;
+}
+figure:nth-of-type(6n){
+  order: 10;
+}
+figure:nth-of-type(7n){
+  order: 3;
+}
+figure:nth-of-type(8n){
+  order: 9;
+}
+figure:nth-of-type(9n){
+  order: 2;
+}
+figure:nth-of-type(10n){
+  order: 8;
+}
+figure:nth-of-type(11n){
+  order: 1;
+}
+figure:nth-of-type(12n){
+  order: 7;
+}
+figcaption{
+  display: none;
+}
