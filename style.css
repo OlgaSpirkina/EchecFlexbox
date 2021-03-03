@@ -1,1 +1,28 @@
-
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pion{
+  order: 6;
+}
+.cheval{
+  order: 5;
+}
+.fou{
+  order: 4;
+}
+.tour{
+  order: 3;
+}
+.dame{
+  order: 2;
+}
+h1{
+  width: 59.5vw;
+  display: flex;
+  justify-content: flex-end;
+}
+figcaption{
+  display: none;
+}
